@@ -19,7 +19,7 @@ fi
 (
     sudo systemctl stop mariadb
     echo "20"
-    sudo apt-get remove --purge -y mariadb-server mariadb-client mariadb-common &> /dev/null
+    sudo apt-get remove --purge -y mariadb-server mariadb-client mariadb-common 
     echo "50"
     sudo apt-get autoremove -y &> /dev/null
     sudo apt-get autoclean &> /dev/null
